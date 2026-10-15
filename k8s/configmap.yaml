@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: netflix-kdd
+data:
+  DB_NAME: "assignment1"
+  COLLECTION: "records"
